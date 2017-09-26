@@ -18,4 +18,9 @@ namespace NUnit.Tests
             Assert.Pass("Your first passing test");
         }
     }
+
+    public interface ILogger
+    {
+        void WriteMessage(string message);
+    }
 }
