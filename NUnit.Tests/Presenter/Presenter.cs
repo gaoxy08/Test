@@ -15,6 +15,9 @@ namespace Presenter
             this._view.Loaded += _view_Loaded;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         private void _view_Loaded()
         {
             _view.Render("Hello World");
