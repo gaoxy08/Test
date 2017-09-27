@@ -8,6 +8,7 @@ namespace Presenter
 {
     public class Presenter
     {
+        private int _count;
         private readonly IView _view;
         public Presenter(IView view)
         {
